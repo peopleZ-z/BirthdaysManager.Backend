@@ -1,5 +1,4 @@
-﻿using Birthdays.Api.Interfaces;
-using Birthdays.Api.Models;
+﻿using Birthdays.Api.Models;
 using Birthdays.Api.Persistence.EntityTypeConfigurations;
 using Microsoft.EntityFrameworkCore;
 

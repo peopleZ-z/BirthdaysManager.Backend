@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
-namespace Birthdays.Api.Interfaces
+namespace Birthdays.Api.Persistence
 {
     public interface IBirthdaysDataContext
     {
