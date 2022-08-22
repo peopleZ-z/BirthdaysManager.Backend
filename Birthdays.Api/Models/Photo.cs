@@ -2,6 +2,8 @@
 {
     public class Photo
     {
+        // Not Implemented.
+
         public Guid Id { get; set; } = Guid.NewGuid();
 
         public string Title { get; set; } = string.Empty;

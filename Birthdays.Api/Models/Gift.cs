@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Birthdays.Api.Models
 {
@@ -11,6 +12,7 @@ namespace Birthdays.Api.Models
 
         public string Description { get; set; } = string.Empty;
 
+        [JsonIgnore]
         public ICollection<Person>? Persons { get; set; }
 
     }
